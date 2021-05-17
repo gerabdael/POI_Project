@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp">
+
+
+    <LinearLayout
+        android:id="@+id/contenedorMensaje2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:background="#326A1A1A"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+
+      <!--  <TextView
+            android:id="@+id/tvUsuario2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:text=""
+            android:textSize="14sp"
+            android:textStyle="bold"
+            tools:text="Ramiro Ramirez" /> -->
+
+        <TextView
+            android:id="@+id/tvMensaje2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:background="#00FFFFFF"
+            android:ems="10"
+            android:paddingTop="5dp"
+            android:text=""
+            tools:text="Hola, mi panita. Cómo estás?" />
+
+        <TextView
+            android:id="@+id/tvFecha2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_marginTop="3dp"
+            android:text=""
+            tools:text="20:53" />
+
+    </LinearLayout>
+
+</FrameLayout>

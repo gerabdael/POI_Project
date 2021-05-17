@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "556355326837",
+    "project_id": "proyectofinalpoi",
+    "storage_bucket": "proyectofinalpoi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:556355326837:android:5ef23ca1732618fba4393c",
+        "android_client_info": {
+          "package_name": "com.fcfm.poi.chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "556355326837-9r20ql6surjm19th0qf6g2kfk0mmv2h9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIqCk4Ez1HDYFT1uqkFHqkJGRTkYDgXxY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "556355326837-9r20ql6surjm19th0qf6g2kfk0mmv2h9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
