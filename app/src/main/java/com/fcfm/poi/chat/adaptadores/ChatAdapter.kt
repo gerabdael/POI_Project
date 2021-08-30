@@ -50,7 +50,7 @@ class ChatAdapter(private val listaMensajes: MutableList<Mensaje>) :
         }
     }
 
-    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ChatViewHolder {
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ChatViewHolder { //Genera la parte visual
 
         return ChatViewHolder(
             LayoutInflater.from(parent.context).inflate(R.layout.custom_item_mensaje, parent, false)
@@ -62,5 +62,5 @@ class ChatAdapter(private val listaMensajes: MutableList<Mensaje>) :
         holder.asignarInformacion(listaMensajes[position])
     }
 
-    override fun getItemCount(): Int = listaMensajes.size
+    override fun getItemCount(): Int = listaMensajes.size //Retorna la cantidad de vistas
 }

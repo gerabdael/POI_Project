@@ -20,7 +20,6 @@ class MainActivity : AppCompatActivity() {
 
         btn_login.setOnClickListener {
             loginUser()
-
         }
         btn_signup.setOnClickListener {
                 val intentChat = Intent(this, ActivitySignup::class.java)

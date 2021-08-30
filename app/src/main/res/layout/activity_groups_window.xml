@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activity_groups_window">
+    tools:context=".Activity_groups_window">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar2"
@@ -48,9 +48,9 @@
         android:layout_width="50dp"
         android:layout_height="50dp"
         app:layout_constraintEnd_toEndOf="@+id/toolbar2"
+        app:layout_constraintHorizontal_bias="0.204"
         app:layout_constraintStart_toStartOf="@+id/toolbar2"
-        app:layout_constraintTop_toTopOf="@+id/toolbar2"
-        app:srcCompat="@drawable/loguito" />
+        app:layout_constraintTop_toTopOf="@+id/toolbar2" />
 
     <ImageButton
         android:id="@+id/btn_burguer"
@@ -98,4 +98,30 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@+id/toolbar3"
         app:srcCompat="@drawable/notify" />
+
+    <Button
+        android:id="@+id/btnCrear"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:text="Crear"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/toolbar2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginEnd="138dp"
+        android:layout_marginRight="138dp"
+        android:layout_marginBottom="25dp"
+        android:text="username"
+        app:layout_constraintBottom_toTopOf="@+id/rvgroups"
+        app:layout_constraintEnd_toStartOf="@+id/btnCrear"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        tools:visibility="visible" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
